@@ -2,7 +2,23 @@
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+	
+//Write your function definition here
+	char yoy;
+	if (x=='A')
+	{
+		cout << 'Z';
+	}
+
+	else if(int(x)>65&&int(x)<=90)
+	{
+		yoy=x-1;
+		return yoy;
+	}
+	else
+	{
+		return '0';
+	}
 }
 
 int main(){
